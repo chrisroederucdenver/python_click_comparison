@@ -6,7 +6,7 @@
 
 print("\n--- using subprocess  --")
 import subprocess
-proc = subprocess.Popen(['../click-lib/click-library.py', '--arg', 'some-arg-value'], stdout=subprocess.PIPE)
+proc = subprocess.Popen(['../click_lib/click_library.py', '--arg', 'some-arg-value'], stdout=subprocess.PIPE)
 (out, err) = proc.communicate()
 print(f"out: {out}")
 print(f"err: {err}")
